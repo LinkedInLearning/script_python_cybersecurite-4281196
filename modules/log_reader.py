@@ -1,4 +1,5 @@
 import os
+import fnmatch
 
 class LogReader:
     def __init__(self, repertoire):
@@ -8,21 +9,21 @@ class LogReader:
         self.repertoire = repertoire  # Attribut pour stocker le chemin du répertoire
         self.lignes_lues = []  # Liste pour stocker les lignes lues de tous les fichiers
 
-    def trouver_fichiers_logs(self, extension=".log"):
+    def trouver_fichiers_logs(self, pattern="secure*"):
         """
-        Parcourt le répertoire et renvoie une liste de fichiers de logs avec l'extension spécifiée.
+        Parcourt le répertoire et renvoie une liste de fichiers de logs correspondant au pattern spécifié.
 
         Paramètres :
-        extension (str) : Extension des fichiers à rechercher (par défaut '.log').
+        pattern (str) : Pattern pour filtrer les fichiers (par défaut 'secure*' pour les fichiers qui commencent par 'secure').
 
         Retourne :
-        list : Liste des fichiers de logs trouvés dans le répertoire.
+        list : Liste des fichiers trouvés correspondant au pattern dans le répertoire.
         """
         fichiers_logs = []
         try:
-            # Parcourt le répertoire et récupère tous les fichiers avec l'extension donnée
+            # Parcourt le répertoire et récupère tous les fichiers correspondant au pattern donné
             for fichier in os.listdir(self.repertoire):
-                if fichier.endswith(extension):
+                if fnmatch.fnmatch(fichier, pattern):
                     fichiers_logs.append(os.path.join(self.repertoire, fichier))
             return fichiers_logs
         except FileNotFoundError:
