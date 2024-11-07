@@ -17,9 +17,9 @@ Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pou
  Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com
+[lil-course-url]: https://www.linkedin.com/learning/creer-un-script-python-pour-la-cybersecurite
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQELxT43nHgHsQ/learning-public-crop_675_1200/learning-public-crop_675_1200/0/1730980340347?e=2147483647&v=beta&t=2IbxLtoa6F234ypGAgavwKFNrxbLRtCEF-QjAo5gZp8
-[lil-URL-trainer]: https://
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/rudi-bruchez
 
 [1]: # (End of FR-Instruction ###############################################################################################)
 
