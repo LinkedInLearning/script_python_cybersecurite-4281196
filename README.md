@@ -6,6 +6,8 @@ Ce dossier Repository est lié au cours `Créer un script Python pour la cybers�
 
 Dans ce cours détaillé, apprenez à créer un script Python pour l'analyse des logs d’activité en cybersécurité. Vous découvrirez comment définir les objectifs du script, utiliser VS Code comme environnement de développement, et gérer un dépôt GitHub. Le cours vous guidera à travers le développement du script avec des modules et des classes, le traitement des logs, la détection des tentatives d'intrusion, et l'envoi de notifications par e-mail et WhatsApp. Vous explorerez aussi la visualisation des données avec matplotlib, l'automatisation du script, et l'utilisation de SQLite pour la persistance et l'exploitation des données.
 
+La meilleure façon d'apprendre un langage est de l'utiliser dans la pratique. C'est pourquoi ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. 
+
 ## Instructions
 
 Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
